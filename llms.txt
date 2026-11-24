@@ -1,0 +1,14 @@
+# Başka İstanbul Yok · Kumaş
+
+> Ataşehir'i harita karosu ya da uydu görüntüsüyle değil, dokuma olarak gösteren statik site. Üç bloğun çatısından üç iplik çıkar: Watergarden, Finanskent ve Maltepe sahilindeki konser alanı. Binaya yeni taşınan misafir dört siteden moda, sanat, teknoloji ve bina hizmetleriyle tanışır.
+
+Randevu bölümü bir takvim talebi (.ics) üretir ve hiçbir bilgiyi sunucuya göndermez. Renkler Pantone yılın renklerinden alınmış ayrık ipliklerdir. Yönler temsilîdir, ölçekli harita değildir.
+
+## Sayfa
+- [Ana sayfa](index.html): dokuma, uçuş, dört kapı, randevu, iplikler
+
+## Bağlı siteler
+- [ataşehirmodern.com](https://ataşehirmodern.com): bina ve blok
+- [afair.live](https://www.afair.live): moda ve canlı yayın
+- [afair.studio](https://afair.studio): sanat ve tasarım stüdyosu
+- [selinahbap.com](https://www.selinahbap.com): yapay zekâ ve teknoloji

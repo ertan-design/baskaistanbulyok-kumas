@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Başka İstanbul Yok · Kumaş</title>
+<meta name="description" content="Ataşehir'i harita değil dokuma olarak gösteren site: üç bloğun çatısından üç yöne uçan iplikler, yeni taşınan misafirin moda, sanat, teknoloji ve tarımla tanıştığı yaşam kapısı.">
+<link rel="stylesheet" href="kumas.css">
+<link rel="describedby" type="text/markdown" href="llms.txt">
+<script src="kumas.js" defer></script>
+</head>
+<body>
+<header class="ust">
+  <a class="marka" href="#"><span>Başka</span> İstanbul <span>Yok</span></a>
+  <nav><a href="#ucus">Uçuş</a><a href="#misafir">Misafir</a><a href="#randevu">Randevu</a><a href="#iplik">İplikler</a></nav>
+</header>
+
+<section class="kahraman" aria-label="Ataşehir dokuması">
+  <canvas id="dokuma" aria-label="Üç bloğun çatısından üç yöne uzanan iplikler; her iplik bir hedefe dikilir"></canvas>
+  <div class="kahraman-yazi">
+    <p class="etiket">Ataşehir · bir üst halka: İstanbul</p>
+    <h1>Harita değil,<br><em>dokuma.</em></h1>
+    <p class="giris">Üç blok, üç çatı, üç iplik. Biri Watergarden'a, biri Finanskent'e, biri Maltepe sahilindeki konser alanına uçar. Şehri çizmiyoruz; çözgüsünü ve atkısını dokuyoruz.</p>
+    <div class="hedefler" id="hedefler" role="group" aria-label="Uçuş hedefleri"></div>
+  </div>
+</section>
+
+<section id="ucus" class="bolum">
+  <div class="izgara iki">
+    <div>
+      <p class="etiket">Çatıdan atlayış</p>
+      <h2>Her blokta bir halka, her halkada bir kasnak.</h2>
+      <p>Videodaki halkalar bizde nakış kasnağıdır: kumaşı gerer, ipliği yolunda tutar. Misafir çatıdan atlar, kasnaktan kasnağa geçer ve indiği yerde şehirle tanışır. Uçuş bir yol tarifi değil, bir dikiş sırasıdır.</p>
+      <ol class="sira" id="sira"></ol>
+    </div>
+    <figure class="video">
+      <video src="ucus.mp4" poster="ucus.jpg" muted loop playsinline controls preload="none"></video>
+      <figcaption>Uçuş taslağı · 20 sn · halkalar = kasnaklar</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="misafir" class="bolum koyu">
+  <p class="etiket">Binaya yeni taşınan misafir</p>
+  <h2>Dört site, bir yaşam.</h2>
+  <p class="dar">Taşındığın ilk hafta şehir sana dört kapıdan gelir. Her kapı ayrı bir disiplinle dokunmuş; hepsi aynı kumaşın parçası.</p>
+  <div class="kapilar" id="kapilar"></div>
+</section>
+
+<section id="randevu" class="bolum">
+  <div class="izgara iki">
+    <div>
+      <p class="etiket">Soru: online terzi müsait mi?</p>
+      <h2>Saat seç, talebini takvimine dik.</h2>
+      <p>Hizmet ve saat seç; talep bir takvim dosyası (.ics) olarak cihazına iner, kendi takvimine eklenir. Bu sayfa hiçbir bilgiyi bir sunucuya göndermez; gerçek müsaitlik hizmet sağlayıcıya bağlandığında aynı ızgarada görünecek.</p>
+      <div class="secim" role="radiogroup" aria-label="Hizmet" id="hizmetler"></div>
+    </div>
+    <div class="kart">
+      <div class="gunler" id="gunler" role="group" aria-label="Gün"></div>
+      <div class="saatler" id="saatler" role="group" aria-label="Saat"></div>
+      <p class="ozet" id="ozet" aria-live="polite">Önce bir hizmet ve saat seç.</p>
+      <button class="dugme" id="indir" disabled>Takvim talebini indir</button>
+    </div>
+  </div>
+</section>
+
+<section id="iplik" class="bolum">
+  <p class="etiket">Renk ayrımı</p>
+  <h2>Her yön tek iplik, her iplik tek renk.</h2>
+  <p class="dar">Tarımda parselin sınırı nasıl kesinse, burada da renk kesin. Renkler karışmaz, ayrık dokunur; yön değişirse iplik değişir. Referanslar Pantone yılın renklerinden alındı, ekranda sRGB karşılığıyla gösterilir.</p>
+  <div class="masuralar" id="masuralar"></div>
+</section>
+
+<footer class="alt">
+  <p>Başka İstanbul Yok · kumaş sürümü · 25 Kasım 2026 · Harita karosu, uydu görüntüsü ya da dış harita servisi kullanılmaz.</p>
+  <p><a href="https://ataşehirmodern.com">ataşehirmodern.com</a> · <a href="https://www.afair.live">afair.live</a> · <a href="https://afair.studio">afair.studio</a> · <a href="https://www.selinahbap.com">selinahbap.com</a> · <a href="llms.txt">llms.txt</a></p>
+</footer>
+</body>
+</html>
