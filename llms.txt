@@ -1,6 +1,6 @@
 # Başka İstanbul Yok · Kumaş
 
-> Ataşehir'i harita karosu ya da uydu görüntüsüyle değil, dokuma olarak gösteren statik site. Üç bloğun çatısından üç iplik çıkar: Watergarden, Finanskent ve Maltepe sahilindeki konser alanı. Binaya yeni taşınan misafir dört siteden moda, sanat, teknoloji ve bina hizmetleriyle tanışır.
+> Ataşehir'i harita karosu ya da uydu görüntüsüyle değil, kumaş olarak gösteren statik site. Girişte rüzgârda dalgalanan gerçek zamanlı kumaş benzetimi var (Verlet fiziği, WebGL2, loş spot ışık, zemine gölge): sürükleyerek 360° çevrilir, tıklayınca rüzgâr savrulur, üç kumaş üç uçuş yönüdür. Üç bloğun çatısından üç iplik çıkar: Watergarden, Finanskent ve Maltepe sahilindeki konser alanı. Binaya yeni taşınan misafir dört siteden moda, sanat, teknoloji ve bina hizmetleriyle tanışır.
 
 Randevu bölümü bir takvim talebi (.ics) üretir ve hiçbir bilgiyi sunucuya göndermez. Renkler Pantone yılın renklerinden alınmış ayrık ipliklerdir. Yönler temsilîdir, ölçekli harita değildir.
 
