@@ -19,9 +19,9 @@ h1{font:400 clamp(46px,8.5vw,112px)/.92 Georgia,serif;letter-spacing:-.035em;mar
 h1 em{color:var(--altin)}
 h2{font:400 clamp(30px,4.4vw,52px)/1.05 Georgia,serif;letter-spacing:-.02em;margin:0 0 18px}
 .giris{font-size:clamp(18px,2vw,22px);margin:0 0 18px;color:#d6c8ba}
-.ipucu{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#9b8b7d;margin:14px 0 0}
+.ipucu{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#9b8b7d;margin:14px 0 0}
 .hedefler{display:flex;gap:8px;flex-wrap:wrap}
-.hedef{display:flex;align-items:center;gap:9px;border:1px solid rgba(243,233,223,.22);background:rgba(20,15,13,.55);color:#f3e9df;border-radius:999px;padding:9px 16px;font:inherit;font-size:14px;cursor:pointer;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);transition:border-color .3s}
+.hedef{display:flex;align-items:center;gap:9px;border:1px solid rgba(243,233,223,.22);background:rgba(20,15,13,.55);color:#f3e9df;border-radius:999px;padding:9px 16px;font:inherit;font-size:13px;cursor:pointer;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);transition:border-color .3s}
 .hedef i{width:10px;height:10px;border-radius:50%}
 .hedef[aria-pressed=true]{border-color:var(--altin)}
 .bolum{padding:clamp(64px,10vw,120px) clamp(16px,5vw,64px);border-top:1px solid var(--cizgi)}
